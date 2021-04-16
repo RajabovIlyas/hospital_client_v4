@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API= axios.create({
-    baseURL: "http://localhost:5000/api",
+    baseURL: "https://calm-garden-05859.herokuapp.com/api",
     responseType: "json"
 });
 
